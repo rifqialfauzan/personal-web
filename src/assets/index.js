@@ -1,0 +1,10 @@
+import homeIcon from './home.svg';
+import homeImage from './home-image.jpg';
+import contactIcon from './message.svg';
+import projectsIcon from './trophy.svg';
+import aboutIcon from './user.svg';
+import hamburger from './hamburger.svg';
+
+
+
+export {homeIcon, homeImage, aboutIcon, contactIcon, projectsIcon, hamburger}
