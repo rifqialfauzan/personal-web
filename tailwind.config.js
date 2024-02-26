@@ -13,7 +13,10 @@ export default {
       },
       backgroundImage: {
         'home-green': "url('/src/assets/home-background.svg')",
-        'home-white': "url('/src/assets/home-white.svg')"
+        'home-white': "url('/src/assets/home-white.svg')",
+        'burgerQueen': "url('src/assets/img/BurgerQueenSquare.png')",
+        'chatBot': "url('src/assets/img/InQuranBotSquare.png')",
+        'personal': "url('src/assets/img/webPortoSquare.png')",
       }
     },
   },

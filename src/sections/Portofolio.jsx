@@ -1,4 +1,5 @@
 import StackTag from "../components/StackTag.jsx";
+import {burgerQueen, chatbot, dashboard, webPortfolio} from "../assets/index.js";
 
 function Portofolio() {
     return (
@@ -12,7 +13,7 @@ function Portofolio() {
                     elit. Ad at distinctio eius labore nihil perferendis, sapiente tempora ullam vel vero!
                 </p>
                 <div className={`mt-5 flex flex-wrap gap-3  `}>
-                    <StackTag text={"Spring Boot"} />
+                    <StackTag text={"Spring Boot"}/>
                     <StackTag text={"React"} />
                     <StackTag text={"Tailwind"} />
                     <StackTag text={"Java"} />
@@ -25,17 +26,18 @@ function Portofolio() {
 
                 </div>
             </div>
-            <div className="bg-[#8CB9BD] grid grid-cols-4 grid-rows-4 grid-flow-col gap-3">
-                <div className={``}>
-                    1
+            <div className={`w-full border-2 px-16 py-16`}>
+                <div className="flex flex-wrap gap-3 border-2">
+                    <button>
+                        <img src={burgerQueen} alt="" className={`w-[200px] h-[200px]`}/>
+                    </button>
+                    <button>
+                        <img src={burgerQueen} alt="" className={`w-[200px] h-[200px]`}/>
+                    </button>
+                    <button>
+                        <img src={burgerQueen} alt="" className={`w-[200px] h-[200px]`}/>
+                    </button>
                 </div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div className={`grid-rows-subgrid row-span-2 border-2`}>6</div>
-                <div>7</div>
-                <div>8</div>
             </div>
         </section>
     );
