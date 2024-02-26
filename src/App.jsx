@@ -8,9 +8,9 @@ import Sidebar from "./components/Sidebar.jsx";
 
 function App() {
   return (
-    <main className={`flex w-full min-h-screen gap-10`}>
+    <main className={``}>
         <Sidebar></Sidebar>
-        <section className={``}>
+        <section className={`lg:ml-20`}>
             <Routes>
                 <Route path="/" element={<Home />} ></Route>
                 <Route path="/about" element={<About />}></Route>

@@ -1,14 +1,14 @@
-import {Link, NavLink} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import {aboutIcon, contactIcon, hamburger, homeIcon, projectsIcon} from "../assets/index.js";
 
 function Sidebar() {
     return (
-        <nav className={`p-5 flex flex-col justify-center items-center `}>
-            <div className={`absolute top-10 left-16`}>
-                <Link className="logo text-5xl font-bold font-poppins tracking-[-6px]" to="/">AL</Link>
-            </div>
-            <div className={``}>
-                <ul className={`flex flex-col justify-center items-center gap-7 max-lg:hidden`}>
+        <nav className={``}>
+            {/*<div className={` top-10 left-16`}>*/}
+            {/*    <Link className="logo text-2xl font-bold font-pacifico " to="/">Alfauzan</Link>*/}
+            {/*</div>*/}
+            <div className={`w-20 h-screen fixed flex justify-center `}>
+                <ul className={` flex flex-col justify-center items-center gap-7 max-lg:hidden`}>
                     <li className={``}>
                         <NavLink to="/" className={``}>
                             <img src={homeIcon} alt="homeIcon" width={28} height={28}
@@ -34,9 +34,10 @@ function Sidebar() {
                         </NavLink>
                     </li>
                 </ul>
-                <div className={"hidden max-lg:block absolute right-10 top-10"}>
-                    <img src={hamburger} alt="Hamburger" width={25} height={25}/>
-                </div>
+
+            </div>
+            <div className={"hidden max-lg:block absolute right-10 top-10"}>
+                <img src={hamburger} alt="Hamburger" width={25} height={25}/>
             </div>
         </nav>
     );
