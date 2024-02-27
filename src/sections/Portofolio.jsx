@@ -1,18 +1,18 @@
 import StackTag from "../components/StackTag.jsx";
-import {burgerQueen, chatbot, dashboard, webPortfolio} from "../assets/index.js";
+// import {burgerQueen, chatbot, dashboard, webPortfolio} from "../assets/index.js";
+import ProjectModal from "../components/ProjectModal.jsx";
+import {projects} from "../constants/index.js";
 
 function Portofolio() {
     return (
-        <section className={`flex h-screen justify-between`}>
-            <div className="max-w-md flex flex-col mt-20 ml-20 ">
-                <h3 className={`font-kodemono text-3xl text-center font-bold bg-[#8CB9BD] px-3 text-[#FEFBF6] uppercase`}>Projects</h3>
+        <section className={`flex justify-evenly gap-5 lg:h-screen max-lg:flex-col max-w-[1440px] mx-auto`}>
+            <div className="max-w-lg mx-auto flex flex-col justify-center  max-lg:text-sm  p-5">
+                <h3 className={`font-kodemono text-3xl font-bold   uppercase`}>Projects</h3>
                 <p className={`font-poppins mt-3`}>That is my full name :) <br/>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Alias aliquam commodi exercitationem fuga incidunt
                     quaerat quam recusandae repellendus tenetur vel! Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Ad at distinctio eius labore nihil perferendis, sapiente tempora ullam vel vero!
                 </p>
-                <div className={`mt-5 flex flex-wrap gap-3  `}>
+                <div className={`mt-5 flex  flex-wrap gap-3  `}>
                     <StackTag text={"Spring Boot"}/>
                     <StackTag text={"React"} />
                     <StackTag text={"Tailwind"} />
@@ -26,17 +26,22 @@ function Portofolio() {
 
                 </div>
             </div>
-            <div className={`w-full border-2 px-16 py-16`}>
-                <div className="flex flex-wrap gap-3 border-2">
-                    <button>
-                        <img src={burgerQueen} alt="" className={`w-[200px] h-[200px]`}/>
-                    </button>
-                    <button>
-                        <img src={burgerQueen} alt="" className={`w-[200px] h-[200px]`}/>
-                    </button>
-                    <button>
-                        <img src={burgerQueen} alt="" className={`w-[200px] h-[200px]`}/>
-                    </button>
+            <div className={` px-16 py-10  flex justify-center items-center `}>
+                <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-5  ">
+                    {/*<ProjectModal imgURL={burgerQueen} />*/}
+                    {/*<ProjectModal imgURL={chatbot} />*/}
+                    {/*<ProjectModal imgURL={webPortfolio} />*/}
+                    {/*<ProjectModal imgURL={burgerQueen} />*/}
+                    {projects.map((project) => (
+                        <ProjectModal key={project.projectName}
+                            preview={project.preview}
+                                      thumbnail={project.projectThumbnail}
+                            links={project.links}
+                            firstParagraph={project.firstParagraph}
+                            secondParagraph={project.secondParagraph}
+                            projectTitle={project.projectName}
+                            stacks={project.stacks} />
+                    ))}
                 </div>
             </div>
         </section>

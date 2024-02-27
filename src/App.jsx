@@ -10,7 +10,7 @@ function App() {
   return (
     <main className={``}>
         <Sidebar></Sidebar>
-        <section className={`lg:ml-20`}>
+        <section className={`lg:ml-20 max-lg:mt-20`}>
             <Routes>
                 <Route path="/" element={<Home />} ></Route>
                 <Route path="/about" element={<About />}></Route>

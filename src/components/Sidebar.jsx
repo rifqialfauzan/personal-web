@@ -7,7 +7,7 @@ function Sidebar() {
             {/*<div className={` top-10 left-16`}>*/}
             {/*    <Link className="logo text-2xl font-bold font-pacifico " to="/">Alfauzan</Link>*/}
             {/*</div>*/}
-            <div className={`w-20 h-screen fixed flex justify-center `}>
+            <div className={`w-20 h-screen fixed flex justify-center  `}>
                 <ul className={` flex flex-col justify-center items-center gap-7 max-lg:hidden`}>
                     <li className={``}>
                         <NavLink to="/" className={``}>

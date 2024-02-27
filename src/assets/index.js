@@ -8,7 +8,9 @@ import bgHome from './home-background.svg'
 import webPortfolio from './img/webPortoSquare.png';
 import burgerQueen from './img/BurgerQueenSquare.png';
 import chatbot from './img/InQuranBotSquare.jpeg';
-import dashboard from './img/dashboard.png';
+import dashboard from './img/burger-queen.png';
+import BQ1 from './img/burger-queen.png';
+import BQ2 from './img/BQ2.png';
 
 
 
@@ -24,5 +26,7 @@ export {
     webPortfolio,
     burgerQueen,
     chatbot,
-    dashboard
+    dashboard,
+    BQ1,
+    BQ2
 }
