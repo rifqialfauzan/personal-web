@@ -1,10 +1,11 @@
-import hero from "../assets/home-image.jpg";
+// import hero from "../assets/home-image.jpg";
 import Button from "../components/Button.jsx";
+import RandomPhotoCard from "../components/RandomPhotoCard.jsx";
 
 function About() {
     return (
-        <section className={`flex h-screen justify-between`}>
-            <div className="max-w-lg flex flex-col justify-center ml-20">
+        <section className={`flex lg:h-screen justify-between`}>
+            <div className="max-w-xl mx-auto flex flex-col justify-center p-5">
                 <h3 className={`font-kodemono text-2xl font-bold bg-[#8CB9BD] px-3 text-[#FEFBF6] uppercase`}>Muhammad Rifqi Al Fauzan</h3>
                 <p className={`font-poppins mt-3`}>That is my full name :) <br/>
                     Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -16,9 +17,11 @@ function About() {
                     <Button text={"Get Resume"}/>
                 </div>
             </div>
-            <div className="flex items-center mr-10 p-10">
-                <img src={hero} alt="home" className={`rounded-full h-full`}/>
+            <div className="flex items-center mr-10 p-10 max-w-md  max-lg:hidden">
+                {/*<img src={hero} alt="home" className={`rounded-full h-full`}/>*/}
+                <RandomPhotoCard />
             </div>
+
         </section>
     );
 }

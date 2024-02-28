@@ -1,4 +1,5 @@
 import Button from "../components/Button.jsx";
+import {socialLinks} from "../constants/index.js";
 
 
 function Home() {
@@ -11,7 +12,16 @@ function Home() {
                 <div className={`mt-10 flex gap-10 max-sm:gap-2 max-sm:mt-7`}>
                     <Button text="Contact Me" url={"/contact"}/>
                     <Button text="See My Works" url={"/portfolio"} />
-
+                </div>
+                <div className={`mt-10 flex items-center gap-5 max-sm:gap-2 max-sm:mt-7`}>
+                    <h1 className={`font-bold cursor-default`}>-</h1>
+                    {socialLinks.map((social) => (
+                        <a key={social.name} href={social.url} target={`_blank`}>
+                            <img src={social.icon} alt={social.name} width={20} height={20}
+                                 className={`hover:scale-125 transition-transform `}/>
+                        </a>
+                    ))}
+                    <h1 className={`font-bold cursor-default`}>-</h1>
                 </div>
             </div>
         </section>

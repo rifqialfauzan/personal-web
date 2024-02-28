@@ -46,14 +46,9 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
                                 <div className="relative p-6 flex-auto">
                                     <p className="my-4 text-blueGray-500 text-sm leading-relaxed font-poppins">
                                         {firstParagraph}
-                                        I always felt like I could do anything. That’s the main
-                                        thing people are controlled by! Thoughts- their perception
-                                        of themselves! They are slowed down by their perception of
-                                        themselves. If you are taught you can’t do anything, you
-                                        won’t do anything. I was taught I could do everything.
                                     </p>
                                     <br/>
-                                    <p className={`my-4 text-blueGray-500 text-sm leading-relaxed font-poppins`} >
+                                    <p className={`my-3 text-blueGray-500 text-sm leading-relaxed font-poppins`} >
                                         {secondParagraph}
                                     </p>
                                     <div className={`flex justify-between mt-6`}>
@@ -63,7 +58,7 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
                                                 <StackTag key={stack.name} text={stack.name}  />
                                             ))}
                                         </div>
-                                        <div>
+                                        <div className={` mx-3`}>
                                             <ul className={``}>
                                                 {/* eslint-disable-next-line react/prop-types */}
                                                 {links.map((link) => (

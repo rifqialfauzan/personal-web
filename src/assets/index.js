@@ -1,9 +1,9 @@
-import homeIcon from './home.svg';
+import homeIcon from './icon/home.svg';
 import homeImage from './home-image.jpg';
-import contactIcon from './message.svg';
-import projectsIcon from './trophy.svg';
-import aboutIcon from './user.svg';
-import hamburger from './hamburger.svg';
+import contactIcon from './icon/message.svg';
+import projectsIcon from './icon/trophy.svg';
+import aboutIcon from './icon/user.svg';
+import hamburger from './icon/hamburger.svg';
 import bgHome from './home-background.svg'
 import webPortfolio from './img/webPortoSquare.png';
 import burgerQueen from './img/BurgerQueenSquare.png';
@@ -11,6 +11,12 @@ import chatbot from './img/InQuranBotSquare.jpeg';
 import dashboard from './img/burger-queen.png';
 import BQ1 from './img/burger-queen.png';
 import BQ2 from './img/BQ2.png';
+
+// Social Links
+import github from './icon/github.svg';
+import instagram from './icon/instagram.svg';
+import linkedin from './icon/linkedin.svg';
+
 
 
 
@@ -28,5 +34,8 @@ export {
     chatbot,
     dashboard,
     BQ1,
-    BQ2
+    BQ2,
+    github,
+    instagram,
+    linkedin
 }

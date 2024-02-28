@@ -1,5 +1,30 @@
-import {BQ2, burgerQueen} from "../assets/index.js";
+import {BQ2, burgerQueen, chatbot, dashboard, github, homeImage, instagram, linkedin} from "../assets/index.js";
 
+
+export const socialLinks = [
+    {
+        name: `Github`,
+        url: `https://github.com/rifqialfauzan`,
+        icon: github
+    },
+    {
+        name: `Instagram`,
+        url: `https://www.instagram.com/rifqialfauzn/`,
+        icon: instagram
+    },
+    {
+        name: `LinkedIn`,
+        url: `https://www.linkedin.com/in/rifqialfauzan/`,
+        icon: linkedin
+    },
+
+]
+
+
+
+export const myPhotos = [
+    homeImage, dashboard, chatbot
+]
 
 export const projects = [
     {
