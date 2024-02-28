@@ -12,6 +12,9 @@ import dashboard from './img/burger-queen.png';
 import BQ1 from './img/burger-queen.png';
 import BQ2 from './img/BQ2.png';
 
+// Icons
+import webIcon from './icon/globe-solid.svg';
+
 // Social Links
 import github from './icon/github.svg';
 import instagram from './icon/instagram.svg';
@@ -37,5 +40,6 @@ export {
     BQ2,
     github,
     instagram,
-    linkedin
+    linkedin,
+    webIcon
 }

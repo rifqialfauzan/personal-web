@@ -44,29 +44,38 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
                                 </div>
                                 {/*body*/}
                                 <div className="relative p-6 flex-auto">
-                                    <p className="my-4 text-blueGray-500 text-sm leading-relaxed font-poppins">
+                                    <p className=" text-blueGray-500 text-sm leading-relaxed font-poppins">
                                         {firstParagraph}
                                     </p>
-                                    <br/>
-                                    <p className={`my-3 text-blueGray-500 text-sm leading-relaxed font-poppins`} >
+
+                                    <p className={`my-2 text-blueGray-500 text-sm leading-relaxed font-poppins`} >
                                         {secondParagraph}
                                     </p>
-                                    <div className={`flex justify-between mt-6`}>
-                                        <div className={`flex flex-wrap max-w-80 gap-2`}>
-                                            {/* eslint-disable-next-line react/prop-types */}
-                                            {stacks.map((stack) => (
-                                                <StackTag key={stack.name} text={stack.name}  />
-                                            ))}
-                                        </div>
-                                        <div className={` mx-3`}>
-                                            <ul className={``}>
+
+                                    <div className={`mt-6`}>
+                                        <p className={`font-poppins text-sm font-semibold`}>Tech Stacks :</p>
+                                        <div className={`flex justify-between mt-2`}>
+                                            <div className={`flex flex-wrap max-w-80 gap-2`}>
                                                 {/* eslint-disable-next-line react/prop-types */}
-                                                {links.map((link) => (
-                                                    <li key={link.name}>
-                                                        <a href={link.href} target={`_blank`}>{link.name}</a>
-                                                    </li>
+                                                {stacks.map((stack) => (
+                                                    <StackTag key={stack.name} text={stack.name}/>
                                                 ))}
-                                            </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className={`mt-6`}>
+                                        <p className={`font-poppins text-sm font-semibold`}>Links</p>
+                                        <div className={`mt-3`}>
+                                            {/* eslint-disable-next-line react/prop-types */}
+                                            {links.map((link) => (
+                                                <div key={link.name}
+                                                     className={`flex mb-1  justify-start items-center gap-3`}>
+                                                    <img src={link.icon} alt={link.name} width={20} height={20}/>
+                                                    <a href={link.href} target={`_blank`}>{link.name}</a>
+                                                </div>
+
+                                            ))}
                                         </div>
                                     </div>
                                 </div>

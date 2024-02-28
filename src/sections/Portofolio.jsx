@@ -8,9 +8,11 @@ function Portofolio() {
         <section className={`flex justify-evenly gap-5 lg:h-screen max-lg:flex-col max-w-[1440px] mx-auto`}>
             <div className="max-w-lg mx-auto flex flex-col justify-center  max-lg:text-sm  p-5">
                 <h3 className={`font-kodemono text-3xl font-bold   uppercase`}>Projects</h3>
-                <p className={`font-poppins mt-3`}>That is my full name :) <br/>
-                    quaerat quam recusandae repellendus tenetur vel! Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Ad at distinctio eius labore nihil perferendis, sapiente tempora ullam vel vero!
+                <p className={`font-poppins mt-3`}>
+                    Here are some projects that I can showcase to everyone. Feel free to explore my portfolio of projects, which range from web applications to machine learning models.
+                </p>
+                <p className={`font-poppins mt-3`}>
+                    These are the technology stacks I used to build all of the projects showcased here.
                 </p>
                 <div className={`mt-5 flex  flex-wrap gap-3  `}>
                     <StackTag text={"Spring Boot"}/>

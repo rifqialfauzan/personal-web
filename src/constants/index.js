@@ -1,4 +1,14 @@
-import {BQ2, burgerQueen, chatbot, dashboard, github, homeImage, instagram, linkedin} from "../assets/index.js";
+import {
+    BQ2,
+    burgerQueen,
+    chatbot,
+    dashboard,
+    github,
+    homeImage,
+    instagram,
+    linkedin,
+    webIcon
+} from "../assets/index.js";
 
 
 export const socialLinks = [
@@ -31,8 +41,8 @@ export const projects = [
         projectName: 'BurgerQueen',
         projectThumbnail: burgerQueen,
         preview: BQ2,
-        firstParagraph: `dwdw`,
-        secondParagraph: `dwdw`,
+        firstParagraph: `This is a web application inspired by the BurgerKing online ordering website, where users can view and browse available products and place orders for desired items. The main goal of this project is to enhance my understanding of the technologies I have learned and how to apply them to an application.`,
+        secondParagraph: `In developing this application, I have learned many things, ranging from fundamental concepts such as building APIs, understanding and creating relational tables, and authentication, to the technologies used such as Spring Boot, React, Tailwind, integrating front-end and back-end, hosting, and more.`,
         stacks: [
             {
                 name: `Java`,
@@ -61,11 +71,18 @@ export const projects = [
         ],
         links: [
             {
-                name: `Github`,
+                name: `Github - Front End`,
+                icon: github,
                 href: `https://github.com/rifqialfauzan/BurgerQueen`
             },
             {
+                name: `Github - Back End`,
+                icon: github,
+                href: "https://github.com/rifqialfauzan/BurgerQueen"
+            },
+            {
                 name: 'Live demo',
+                icon: webIcon,
                 href: `https://google.com`
             }
         ]
