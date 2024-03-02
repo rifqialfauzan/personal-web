@@ -1,13 +1,13 @@
 import {
     BQ2,
     burgerQueen,
-    chatbot,
+    chatbot, chatbotPreview,
     dashboard,
     github,
     homeImage,
     instagram,
     linkedin,
-    webIcon
+    webIcon, webPortfolio, webPortfolioPreview
 } from "../assets/index.js";
 
 
@@ -67,6 +67,120 @@ export const projects = [
             {
                 name: `MySQL`,
                 borderColor: `bg-blue-300`
+            }
+        ],
+        links: [
+            {
+                name: `Github - Front End`,
+                icon: github,
+                href: `https://github.com/rifqialfauzan/BurgerQueen`
+            },
+            {
+                name: `Github - Back End`,
+                icon: github,
+                href: "https://github.com/rifqialfauzan/BurgerQueen"
+            },
+            {
+                name: 'Live demo',
+                icon: webIcon,
+                href: `https://google.com`
+            }
+        ]
+    },
+    {
+        projectName: 'Web Portfolio',
+        projectThumbnail: webPortfolio,
+        preview: webPortfolioPreview,
+        firstParagraph: 'first P',
+        secondParagraph: 'sec P',
+        stacks: [
+            {
+                name: 'Javascript',
+                borderColor: 'text-yellow-600'
+            },
+            {
+                name: 'React',
+                borderColor: 'text-violet-200'
+            },
+            {
+                name: 'Tailwind',
+                borderColor: 'text-blue-600'
+            }
+        ],
+        links: [
+            {
+                name: `Github - Front End`,
+                icon: github,
+                href: `https://github.com/rifqialfauzan/BurgerQueen`
+            },
+            {
+                name: `Github - Back End`,
+                icon: github,
+                href: "https://github.com/rifqialfauzan/BurgerQueen"
+            },
+            {
+                name: 'Live demo',
+                icon: webIcon,
+                href: `https://google.com`
+            }
+        ]
+    },
+    {
+        projectName: 'InQuranBot',
+        projectThumbnail: chatbot,
+        preview: chatbotPreview,
+        firstParagraph: 'first P',
+        secondParagraph: 'sec P',
+        stacks: [
+            {
+                name: 'Python',
+                borderColor: 'text-blue-600'
+            },
+            {
+                name: 'Scikit-Learn',
+                borderColor: 'text-grey-200'
+            },
+            {
+                name: 'Jupyter Notebook',
+                borderColor: 'text-yellow-300'
+            }
+        ],
+        links: [
+            {
+                name: `Github - Front End`,
+                icon: github,
+                href: `https://github.com/rifqialfauzan/BurgerQueen`
+            },
+            {
+                name: `Github - Back End`,
+                icon: github,
+                href: "https://github.com/rifqialfauzan/BurgerQueen"
+            },
+            {
+                name: 'Live demo',
+                icon: webIcon,
+                href: `https://google.com`
+            }
+        ]
+    },
+    {
+        projectName: 'InQuranBot',
+        projectThumbnail: chatbot,
+        preview: chatbotPreview,
+        firstParagraph: 'first P',
+        secondParagraph: 'sec P',
+        stacks: [
+            {
+                name: 'Python',
+                borderColor: 'text-blue-600'
+            },
+            {
+                name: 'Scikit-Learn',
+                borderColor: 'text-grey-200'
+            },
+            {
+                name: 'Jupyter Notebook',
+                borderColor: 'text-yellow-300'
             }
         ],
         links: [
