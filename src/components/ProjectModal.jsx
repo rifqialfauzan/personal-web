@@ -7,13 +7,10 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
     const [showModal, setShowModal] = React.useState(false);
     return (
         <>
-            <button
-                // className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                type="button"
-                onClick={() => setShowModal(true)}
-            >
+            <div className={`relative group cursor-pointer`} onClick={() => setShowModal(true)}>
                 <img src={thumbnail} alt={projectTitle} className={`w-[230px] h-[230px] rounded-lg`}/>
-            </button>
+                <div className="rounded-lg font-kodemono opacity-0 hover:opacity-100 duration-300 bg-black/85 absolute inset-0 z-10 flex justify-center items-center text-2xl text-white font-bold">{projectTitle}</div>
+            </div>
             {showModal ? (
                 <>
                     <div
