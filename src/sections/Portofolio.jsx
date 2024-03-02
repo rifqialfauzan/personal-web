@@ -15,16 +15,16 @@ function Portofolio() {
                     These are the technology stacks I used to build all of the projects showcased here.
                 </p>
                 <div className={`mt-5 flex  flex-wrap gap-3  `}>
-                    <StackTag text={"Spring Boot"}/>
-                    <StackTag text={"React"} />
-                    <StackTag text={"Tailwind"} />
-                    <StackTag text={"Java"} />
-                    <StackTag text={"JavaScript"} />
-                    <StackTag text={"Python"} />
-                    <StackTag text={"MySQL"} />
-                    <StackTag text={"NextJS"} />
-                    <StackTag text={"PHP"} />
-                    <StackTag text={"Laravel"} />
+                    <StackTag text={"SpringBoot"} bgColor={`bg-springBoot`} textColor={`text-white`}/>
+                    <StackTag text={"React"} bgColor={`bg-react`} textColor={`text-white`}/>
+                    <StackTag text={"Tailwind"} bgColor={`bg-tailwind`} textColor={`text-white`}/>
+                    <StackTag text={"Java"} bgColor={`bg-java`} textColor={`text-white`}/>
+                    <StackTag text={"JavaScript"} bgColor={`bg-javaScript`} textColor={`text-white`}/>
+                    <StackTag text={"Python"} bgColor={`bg-python`} textColor={`text-white`}/>
+                    <StackTag text={"MySQL"} bgColor={`bg-mySql`} textColor={`text-white`}/>
+                    <StackTag text={"NextJS"} bgColor={`bg-nextJS`} textColor={`text-white`}/>
+                    <StackTag text={"PHP"} bgColor={`bg-php`} textColor={`text-white`}/>
+                    <StackTag text={"Laravel"} bgColor={`bg-laravel`} textColor={`text-white`}/>
 
                 </div>
             </div>

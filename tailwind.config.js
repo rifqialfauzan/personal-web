@@ -17,6 +17,42 @@ export default {
         'burgerQueen': "url('src/assets/img/BurgerQueenSquare.png')",
         'chatBot': "url('src/assets/img/InQuranBotSquare.png')",
         'personal': "url('src/assets/img/webPortoSquare.png')",
+      },
+      backgroundColor: {
+        springBoot: '#6DB33F',
+        react: '#61DBFB',
+        tailwind: '#A5F3FC',
+        java: '#ED1D25',
+        javaScript: '#F0DB4F',
+        python: '#FFD43B',
+        mySql: '#00758F',
+        nextJS: '#5E7693',
+        php: '#8993BE',
+        laravel: '#FB503B'
+      },
+      borderColor: {
+        springBoot: '#6DB33F',
+        react: '#61DBFB',
+        tailwind: '#A5F3FC',
+        java: '#ED1D25',
+        javaScript: '#F0DB4F',
+        python: '#FFD43B',
+        mySql: '#00758F',
+        nextJS: '#5E7693',
+        php: '#8993BE',
+        laravel: '#FB503B'
+      },
+      textColor: {
+        springBoot: '#6DB33F',
+        react: '#61DBFB',
+        tailwind: '#A5F3FC',
+        java: '#ED1D25',
+        javaScript: '#F0DB4F',
+        python: '#FFD43B',
+        mySql: '#00758F',
+        nextJS: '#5E7693',
+        php: '#8993BE',
+        laravel: '#FB503B'
       }
     },
   },
