@@ -1,13 +1,11 @@
 import {
-    BQ2,
-    burgerQueen,
-    chatbot, chatbotPreview,
-    dashboard,
+    burgerQueenPreview,
+    burgerQueenThumb,
+    chatbotThumb, chatbotPreview,
     github,
-    homeImage,
     instagram,
-    linkedin,
-    webIcon, webPortfolio, webPortfolioPreview
+    linkedin, myPhoto1, myPhoto2, myPhoto3, myPhoto4,
+    webIcon, webPortfolioThumb, webPortfolioPreview1, nikeThumb, nikePreview
 } from "../assets/index.js";
 
 
@@ -33,40 +31,40 @@ export const socialLinks = [
 
 
 export const myPhotos = [
-    homeImage, dashboard, chatbot
+    myPhoto1, myPhoto2, myPhoto3, myPhoto4
 ]
 
 export const projects = [
     {
         projectName: 'BurgerQueen',
-        projectThumbnail: burgerQueen,
-        preview: BQ2,
+        projectThumbnail: burgerQueenThumb,
+        preview: burgerQueenPreview,
         firstParagraph: `This is a web application inspired by the BurgerKing online ordering website, where users can view and browse available products and place orders for desired items. The main goal of this project is to enhance my understanding of the technologies I have learned and how to apply them to an application.`,
         secondParagraph: `In developing this application, I have learned many things, ranging from fundamental concepts such as building APIs, understanding and creating relational tables, and authentication, to the technologies used such as Spring Boot, React, Tailwind, integrating front-end and back-end, hosting, and more.`,
         stacks: [
             {
                 name: `Java`,
-                borderColor: `bg-red-400`
+                borderColor: `border-java`
             },
             {
-                name: `Javascript`,
-                borderColor: `bg-yellow-400`
+                name: `JavaScript`,
+                borderColor: `border-javaScript`
             },
             {
                 name: `SpringBoot`,
-                borderColor: `bg-green-600`
+                borderColor: `border-springBoot`
             },
             {
                 name: `React`,
-                borderColor: `bg-amber-200`
+                borderColor: `border-react`
             },
             {
                 name: `Tailwind`,
-                borderColor: `bg-blue-100`
+                borderColor: `border-tailwind`
             },
             {
                 name: `MySQL`,
-                borderColor: `bg-blue-300`
+                borderColor: `border-mySql`
             }
         ],
         links: [
@@ -89,10 +87,10 @@ export const projects = [
     },
     {
         projectName: 'Web Portfolio',
-        projectThumbnail: webPortfolio,
-        preview: webPortfolioPreview,
-        firstParagraph: 'first P',
-        secondParagraph: 'sec P',
+        projectThumbnail: webPortfolioThumb,
+        preview: webPortfolioPreview1,
+        firstParagraph: 'This project is the website you are currently visiting. It is my personal website designed to display information about myself, and most importantly, to showcase the projects I have worked on.',
+        secondParagraph: '',
         stacks: [
             {
                 name: 'Javascript',
@@ -109,14 +107,9 @@ export const projects = [
         ],
         links: [
             {
-                name: `Github - Front End`,
+                name: `Github`,
                 icon: github,
                 href: `https://github.com/rifqialfauzan/BurgerQueen`
-            },
-            {
-                name: `Github - Back End`,
-                icon: github,
-                href: "https://github.com/rifqialfauzan/BurgerQueen"
             },
             {
                 name: 'Live demo',
@@ -127,10 +120,10 @@ export const projects = [
     },
     {
         projectName: 'InQuranBot',
-        projectThumbnail: chatbot,
+        projectThumbnail: chatbotThumb,
         preview: chatbotPreview,
-        firstParagraph: 'first P',
-        secondParagraph: 'sec P',
+        firstParagraph: 'This is my final project during my college. This chatbot can provide information about verses from the Quran based on the input given by the user, so users don\'t need to search on Google or in the Quran itself, but can ask this chatbot and the chatbot will find and provide the desired information.',
+        secondParagraph: 'In this project, I learned many things. I collected Quranic data from the Ministry of Religious Affairs\' digital Quran and processed it to be used for training the artificial intelligence model that will be built. Additionally, I also learned Python language and technologies related to artificial intelligence such as Scikit-Learn, TensorFlow, numpy, etc.',
         stacks: [
             {
                 name: 'Python',
@@ -147,14 +140,14 @@ export const projects = [
         ],
         links: [
             {
-                name: `Github - Front End`,
+                name: `Github`,
                 icon: github,
                 href: `https://github.com/rifqialfauzan/BurgerQueen`
             },
             {
-                name: `Github - Back End`,
+                name: `Telegram`,
                 icon: github,
-                href: "https://github.com/rifqialfauzan/BurgerQueen"
+                href: "https://t.me/InQuran_bot"
             },
             {
                 name: 'Live demo',
@@ -164,35 +157,26 @@ export const projects = [
         ]
     },
     {
-        projectName: 'InQuranBot',
-        projectThumbnail: chatbot,
-        preview: chatbotPreview,
-        firstParagraph: 'first P',
-        secondParagraph: 'sec P',
+        projectName: 'Nike (LP)',
+        projectThumbnail: nikeThumb,
+        preview: nikePreview,
+        firstParagraph: 'This is a simple landing page project about Nike products. In this project, I followed a tutorial video on \'How to use Tailwind\' that I found on YouTube.',
+        secondParagraph: 'The purpose of this project is to learn Tailwind, familiarize myself with it, and analyze which classes are most commonly used when building a website.',
         stacks: [
             {
-                name: 'Python',
+                name: 'React',
                 borderColor: 'text-blue-600'
             },
             {
-                name: 'Scikit-Learn',
+                name: 'Tailwind',
                 borderColor: 'text-grey-200'
-            },
-            {
-                name: 'Jupyter Notebook',
-                borderColor: 'text-yellow-300'
             }
         ],
         links: [
             {
-                name: `Github - Front End`,
+                name: `Github`,
                 icon: github,
-                href: `https://github.com/rifqialfauzan/BurgerQueen`
-            },
-            {
-                name: `Github - Back End`,
-                icon: github,
-                href: "https://github.com/rifqialfauzan/BurgerQueen"
+                href: `https://github.com/rifqialfauzan/`
             },
             {
                 name: 'Live demo',

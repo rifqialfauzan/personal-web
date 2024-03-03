@@ -18,12 +18,12 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
                         <div className="relative w-auto my-6 mx-auto max-h-[90%]  flex max-lg:flex-col-reverse max-lg:gap-3 max-lg:overflow-y-scroll">
                             {/*content*/}
                             <div className={` max-w-xl max-sm:mt-10 flex flex-col `}>
-                                <div className={`lg:overflow-y-scroll`}>
+                                <div className={`lg:overflow-y-auto`}>
                                     <img src={preview} alt="project-preview" />
                                 </div>
                             </div>
                             <div
-                                className="border-0  shadow-lg relative flex flex-col max-w-xl bg-white outline-none focus:outline-none lg:overflow-y-scroll">
+                                className="border-0  shadow-lg relative flex flex-col max-w-xl bg-white outline-none focus:outline-none lg:overflow-y-auto">
                                 {/*header*/}
                                 <div
                                     className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
@@ -55,14 +55,14 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
                                             <div className={`flex flex-wrap max-w-80 gap-2`}>
                                                 {/* eslint-disable-next-line react/prop-types */}
                                                 {stacks.map((stack) => (
-                                                    <StackTag key={stack.name} text={stack.name}/>
+                                                    <StackTag key={stack.name} text={stack.name} borderColor={`bg-[#8CB9BD]`}  textColor={`text-white`}/>
                                                 ))}
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className={`mt-6`}>
-                                        <p className={`font-poppins text-sm font-semibold`}>Links</p>
+                                        <p className={`font-poppins text-sm font-semibold ` }>Links</p>
                                         <div className={`mt-3`}>
                                             {/* eslint-disable-next-line react/prop-types */}
                                             {links.map((link) => (

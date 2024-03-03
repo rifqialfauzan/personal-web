@@ -8,7 +8,7 @@ const RandomPhotoCard = () => {
     };
     return (
 
-            <img src={img} alt="" onClick={clickHandler} className={`rounded-full h-full w-full`}/>
+            <img src={img} alt="" onClick={clickHandler} className={`rounded-full max-w-xl w-full cursor-pointer`}/>
 
     );
 };
