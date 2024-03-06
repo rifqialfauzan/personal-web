@@ -19,7 +19,7 @@ const ProjectModal = ({thumbnail, preview, projectTitle, firstParagraph, secondP
                             {/*content*/}
                             <div className={` max-w-xl max-sm:mt-10 flex flex-col `}>
                                 <div className={`lg:overflow-y-auto`}>
-                                    <img src={preview} alt="project-preview" />
+                                    <img src={preview} alt="project-preview"/>
                                 </div>
                             </div>
                             <div

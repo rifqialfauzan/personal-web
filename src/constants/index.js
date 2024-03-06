@@ -5,7 +5,7 @@ import {
     github,
     instagram,
     linkedin, myPhoto1, myPhoto2, myPhoto3, myPhoto4,
-    webIcon, webPortfolioThumb, webPortfolioPreview1, nikeThumb, nikePreview
+    webIcon, webPortfolioThumb, webPortfolioPreview, nikeThumb, nikePreview
 } from "../assets/index.js";
 
 
@@ -40,7 +40,7 @@ export const projects = [
         projectThumbnail: burgerQueenThumb,
         preview: burgerQueenPreview,
         firstParagraph: `This is a web application inspired by the BurgerKing online ordering website, where users can view and browse available products and place orders for desired items. The main goal of this project is to enhance my understanding of the technologies I have learned and how to apply them to an application.`,
-        secondParagraph: `In developing this application, I have learned many things, ranging from fundamental concepts such as building APIs, understanding and creating relational tables, and authentication, to the technologies used such as Spring Boot, React, Tailwind, integrating front-end and back-end, hosting, and more.`,
+        secondParagraph: `In developing this application, I have learned many things, ranging from fundamental concepts such as building APIs, understanding and creating relational tables, and authentication, to the technologies used such as Spring Boot, integrating front-end and back-end, hosting, and more.`,
         stacks: [
             {
                 name: `Java`,
@@ -55,11 +55,11 @@ export const projects = [
                 borderColor: `border-springBoot`
             },
             {
-                name: `React`,
+                name: `HTML`,
                 borderColor: `border-react`
             },
             {
-                name: `Tailwind`,
+                name: `CSS`,
                 borderColor: `border-tailwind`
             },
             {
@@ -71,7 +71,7 @@ export const projects = [
             {
                 name: `Github - Front End`,
                 icon: github,
-                href: `https://github.com/rifqialfauzan/BurgerQueen`
+                href: `https://github.com/rifqialfauzan/BurgerQueen-FrontEnd`
             },
             {
                 name: `Github - Back End`,
@@ -88,7 +88,7 @@ export const projects = [
     {
         projectName: 'Web Portfolio',
         projectThumbnail: webPortfolioThumb,
-        preview: webPortfolioPreview1,
+        preview: webPortfolioPreview,
         firstParagraph: 'This project is the website you are currently visiting. It is my personal website designed to display information about myself, and most importantly, to showcase the projects I have worked on.',
         secondParagraph: '',
         stacks: [
@@ -109,7 +109,7 @@ export const projects = [
             {
                 name: `Github`,
                 icon: github,
-                href: `https://github.com/rifqialfauzan/BurgerQueen`
+                href: `https://github.com/rifqialfauzan/personal-web`
             },
             {
                 name: 'Live demo',
@@ -142,7 +142,7 @@ export const projects = [
             {
                 name: `Github`,
                 icon: github,
-                href: `https://github.com/rifqialfauzan/BurgerQueen`
+                href: `https://github.com/rifqialfauzan/InQuran-chatbot-alquran`
             },
             {
                 name: `Telegram`,
@@ -164,6 +164,10 @@ export const projects = [
         secondParagraph: 'The purpose of this project is to learn Tailwind, familiarize myself with it, and analyze which classes are most commonly used when building a website.',
         stacks: [
             {
+                name: `JavaScript`,
+                borderColor: `border-springBoot`
+            },
+            {
                 name: 'React',
                 borderColor: 'text-blue-600'
             },
@@ -176,7 +180,7 @@ export const projects = [
             {
                 name: `Github`,
                 icon: github,
-                href: `https://github.com/rifqialfauzan/`
+                href: `https://github.com/rifqialfauzan/nike-landing-page`
             },
             {
                 name: 'Live demo',

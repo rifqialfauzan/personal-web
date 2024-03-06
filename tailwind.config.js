@@ -24,11 +24,12 @@ export default {
         tailwind: '#A5F3FC',
         java: '#ED1D25',
         javaScript: '#F0DB4F',
-        python: '#FFD43B',
+        python: '#306998',
         mySql: '#00758F',
         nextJS: '#5E7693',
         php: '#8993BE',
-        laravel: '#FB503B'
+        laravel: '#FB503B',
+        scikitLearn: '#4B8BBE'
       },
       borderColor: {
         springBoot: '#6DB33F',

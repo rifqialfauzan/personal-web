@@ -22,9 +22,7 @@ import burgerQueenPreview from './img/BurgerQueenPreview.png';
 
     // Web Portfolio
 import webPortfolioThumb from './img/webPortoSquare.png';
-import webPortfolioPreview1 from './img/webPortoPreview1.png';
-import webPortfolioPreview2 from './img/webPortoPreview2.png';
-import webPortfolioPreview4 from './img/webPortoPreview4.png';
+import webPortfolioPreview from './img/portfolioPreview.png';
 
     // ChatBot Telegram
 import chatbotThumb from './img/InQuranBotSquare.jpeg';
@@ -53,7 +51,7 @@ export {
 
     github, instagram, linkedin,
 
-    chatbotPreview, nikePreview, burgerQueenPreview, webPortfolioPreview1, webPortfolioPreview2, webPortfolioPreview4,
+    chatbotPreview, nikePreview, burgerQueenPreview, webPortfolioPreview,
 
     myPhoto1, myPhoto2, myPhoto3, myPhoto4
 }

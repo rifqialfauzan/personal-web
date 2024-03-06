@@ -22,10 +22,7 @@ function Portofolio() {
                     <StackTag text={"JavaScript"} bgColor={`bg-javaScript`} textColor={`text-white`}/>
                     <StackTag text={"Python"} bgColor={`bg-python`} textColor={`text-white`}/>
                     <StackTag text={"MySQL"} bgColor={`bg-mySql`} textColor={`text-white`}/>
-                    <StackTag text={"NextJS"} bgColor={`bg-nextJS`} textColor={`text-white`}/>
-                    <StackTag text={"PHP"} bgColor={`bg-php`} textColor={`text-white`}/>
-                    <StackTag text={"Laravel"} bgColor={`bg-laravel`} textColor={`text-white`}/>
-
+                    <StackTag text={"Scikit-Learn"} bgColor={`bg-scikitLearn`} textColor={`text-white`}/>
                 </div>
             </div>
             <div className={` px-16 py-10  flex justify-center items-center `}>
