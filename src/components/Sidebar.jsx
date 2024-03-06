@@ -63,16 +63,16 @@ function Sidebar() {
                     <nav>
                         <ul className={`flex flex-col justify-center items-center`}>
                             <li className={`p-3`}>
-                                <a href="/" className={`font-poppins font-semibold`}>Home</a>
+                                <NavLink className={`font-poppins font-semibold`} to={"/"}>Home</NavLink>
                             </li>
                             <li className={`p-3`}>
-                                <a href="/about" className={`font-poppins font-semibold`}>About</a>
+                                <NavLink to={"/about"} className={`font-poppins font-semibold`}>About</NavLink>
                             </li>
                             <li className={`p-3`}>
-                                <a href="/portfolio" className={`font-poppins font-semibold`}>Portfolio</a>
+                                <NavLink to={"/portfolio"} className={`font-poppins font-semibold`}>Portfolio</NavLink>
                             </li>
                             <li className={`p-3`}>
-                                <a href="/contact" className={`font-poppins font-semibold`}>Contact</a>
+                                <NavLink to={"/contact"} className={`font-poppins font-semibold`}>Contact</NavLink>
                             </li>
                         </ul>
                     </nav>
