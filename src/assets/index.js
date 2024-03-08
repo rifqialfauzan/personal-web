@@ -32,6 +32,10 @@ import chatbotPreview from './gif/chatbotPreview.gif';
 import nikeThumb from './img/NikeSquare.jpg';
 import nikePreview from './img/NikePreview.png';
 
+    // Korstem
+import korstemThumb from './img/korstemSquare.png';
+import korstemPreview from './img/korstemPreview.png'
+
 
 // Social Links
 import github from './icon/github.svg';
@@ -47,11 +51,11 @@ export {
 
     bgHome,
 
-    webPortfolioThumb, burgerQueenThumb, chatbotThumb, nikeThumb,
+    webPortfolioThumb, burgerQueenThumb, chatbotThumb, nikeThumb, korstemThumb,
 
     github, instagram, linkedin,
 
-    chatbotPreview, nikePreview, burgerQueenPreview, webPortfolioPreview,
+    chatbotPreview, nikePreview, burgerQueenPreview, webPortfolioPreview, korstemPreview,
 
     myPhoto1, myPhoto2, myPhoto3, myPhoto4
 }

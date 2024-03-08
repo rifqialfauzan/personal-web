@@ -5,7 +5,7 @@ import {
     github,
     instagram,
     linkedin, myPhoto1, myPhoto2, myPhoto3, myPhoto4,
-    webIcon, webPortfolioThumb, webPortfolioPreview, nikeThumb, nikePreview
+    webIcon, webPortfolioThumb, webPortfolioPreview, nikeThumb, nikePreview, korstemThumb, korstemPreview
 } from "../assets/index.js";
 
 
@@ -77,6 +77,39 @@ export const projects = [
                 name: `Github - Back End`,
                 icon: github,
                 href: "https://github.com/rifqialfauzan/BurgerQueen"
+            },
+            {
+                name: 'Live demo',
+                icon: webIcon,
+                href: `https://google.com`
+            }
+        ]
+    },
+    {
+        projectName: 'Korstem',
+        projectThumbnail: korstemThumb,
+        preview: korstemPreview,
+        firstParagraph: 'This is a web application capable of transforming some Korean text to its dictionary form and providing its translation as well, so it will be easier to learn to conjugate it to another tense.',
+        secondParagraph: 'This app is just for my personal use since I learning Korean right now. I made it because when I read some Korean text, I have no idea what it mean. But when I try to translate some word I found that I already know that word, it just appear in different form. So that is why I made this app.',
+        stacks: [
+            {
+                name: 'Python',
+                borderColor: 'text-yellow-600'
+            },
+            {
+                name: 'Flask',
+                borderColor: 'text-violet-200'
+            },
+            {
+                name: 'Tailwind',
+                borderColor: 'text-blue-600'
+            }
+        ],
+        links: [
+            {
+                name: `Github`,
+                icon: github,
+                href: `https://github.com/rifqialfauzan/Korstem-korean-to-its-dictionary-form`
             },
             {
                 name: 'Live demo',

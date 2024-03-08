@@ -5,9 +5,9 @@ import {projects} from "../constants/index.js";
 
 function Portofolio() {
     return (
-        <section className={`flex justify-evenly gap-5 lg:h-screen max-lg:flex-col max-w-[1440px] mx-auto`}>
+        <section className={`flex justify-evenly gap-5 flex-col max-w-[1440px] mx-auto py-20`}>
             <div className="max-w-lg mx-auto flex flex-col justify-center  max-lg:text-sm  p-5">
-                <h3 className={`font-kodemono text-3xl font-bold   uppercase`}>Projects</h3>
+                <h3 className={`font-kodemono text-3xl font-bold  text-center  uppercase`}>Projects</h3>
                 <p className={`font-poppins mt-3`}>
                     Here are some projects that I can showcase to everyone. Feel free to explore my portfolio of projects, which range from web applications to machine learning models.
                 </p>
@@ -23,14 +23,11 @@ function Portofolio() {
                     <StackTag text={"Python"} bgColor={`bg-python`} textColor={`text-white`}/>
                     <StackTag text={"MySQL"} bgColor={`bg-mySql`} textColor={`text-white`}/>
                     <StackTag text={"Scikit-Learn"} bgColor={`bg-scikitLearn`} textColor={`text-white`}/>
+                    <StackTag text={"Flask"} bgColor={`bg-python`} textColor={`text-white`}/>
                 </div>
             </div>
-            <div className={` px-16 py-10  flex justify-center items-center `}>
-                <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-5  ">
-                    {/*<ProjectModal imgURL={burgerQueen} />*/}
-                    {/*<ProjectModal imgURL={chatbot} />*/}
-                    {/*<ProjectModal imgURL={webPortfolio} />*/}
-                    {/*<ProjectModal imgURL={burgerQueen} />*/}
+            <div className={`mt-10 px-16 py-10 w-full flex justify-center items-center `}>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10  ">
                     {projects.map((project) => (
                         <ProjectModal key={project.projectName}
                             preview={project.preview}
